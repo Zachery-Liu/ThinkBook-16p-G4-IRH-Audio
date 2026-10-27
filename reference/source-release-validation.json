@@ -1,0 +1,12 @@
+{
+  "public_asset_free_suites": 12,
+  "public_asset_free_result": "PASS",
+  "private_local_OEM_import_and_CLT_builds": "PASS Debug Cirrus and Release AppleALC; ignored resources only",
+  "prepared_source_matches_reviewed_runtime": "PASS",
+  "AppleALC_bundle_personalities_and_libraries": "MATCH reference deployment",
+  "native_Pin17_resource": "BYTE_IDENTICAL to audible reference",
+  "installed_these_reorganized_builds": false,
+  "hardware_claims": "Original reference machine only; not fresh on-device verification of these rebuilds.",
+  "clean_git_export_without_OEM_assets": "PASS all 12 public suites",
+  "publication_privacy_audit": "PASS tracked source tree; generated firmware/dependencies/build outputs removed from working directory"
+}

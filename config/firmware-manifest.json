@@ -1,0 +1,20 @@
+{
+  "board": "17AA38A9",
+  "speaker_id": 0,
+  "firmware": {
+    "filename": "halo_cspl_RAM_revB2_29.63.1.wmfw",
+    "size": 34068,
+    "sha256": "c11cb3e25825c673a955a3519370ad77fbcd8bcf68808e8e34140a70caefcec4"
+  },
+  "left": {
+    "filename": "17AA38A9_221222_V0_A0.bin",
+    "size": 5544,
+    "sha256": "176cd7f50e026f4336d314709f3f2a9e9a7dca7fe9a08141290e6ab64b6ab041"
+  },
+  "right": {
+    "filename": "17AA38A9_221222_V0_A1.bin",
+    "size": 5544,
+    "sha256": "9bf84d1693c1a7a5382500b524ad1ff43bf131e94d8b8a3bd30c43b272991617"
+  },
+  "note": "OEM board tuning, not per-machine UID/R0 calibration. Payloads intentionally omitted."
+}

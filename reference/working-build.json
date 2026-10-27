@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "machine": "ThinkBook 16p G4 IRH (2023), i9-13900H",
+  "codec": "ALC287",
+  "amplifier_board": "17AA38A9",
+  "amplifiers": "CS35L41 B2, I2C 0x40 LEFT / 0x41 RIGHT",
+  "runtime_recorded": "macOS 15.8.1 x86_64, Lilu 1.7.3 (runtime label), AppleALC 1.9.9",
+  "format": "48kHz / 24bit / stereo; 32-bit ASP slots do not imply 32-bit sample precision",
+  "CirrusAudioFixup_sha256": "6f6d90563c516d88e2bd780431973c25c91590bbfb15c00c4ef891ec67b0525a",
+  "AppleALC_sha256": "550c4acf66b86950478e7b07ac1566f8288c8a1b2ef3513b072ab9ee895022d9",
+  "validation": "User confirmed bass audible, then tentatively heard upper and lower speakers; software simultaneously verified Pin14 active and both bass PLAYBACK_ACTIVE with protection OK.",
+  "not_verified": [
+    "independent physical L/R/each-speaker acoustics",
+    "headphone switching",
+    "sleep/wake",
+    "long-term stability",
+    "another machine"
+  ],
+  "binary_hash_note": "Reference fingerprints only. Rebuilds may differ due to compiler/path/date/resource ordering; not a bit-reproducibility claim."
+}

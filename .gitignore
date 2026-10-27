@@ -1,0 +1,24 @@
+# Private firmware, build dependencies and generated payloads
+/deps/
+/local/
+/build/
+/dist/
+**/build/
+**/Generated/FirmwareData.inc
+*.wmfw
+*.bin
+*.bincfg
+*.kext/
+*.dSYM/
+*.o
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+# Personal deployment and machine state
+EFI/
+**/EFI/
+*nvram*
+*.rom
+*.mlb
+*.serial

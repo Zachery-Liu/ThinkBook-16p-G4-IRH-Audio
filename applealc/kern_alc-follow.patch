@@ -1,0 +1,38 @@
+--- a/AppleALC/kern_alc.cpp
++++ b/AppleALC/kern_alc.cpp
+@@ -16,6 +16,7 @@
+ 
+ #include "kern_alc.hpp"
+ #include "kern_resources.hpp"
++#include "ThinkBookTweeterRuntime.hpp"
+ 
+ static AlcEnabler alcEnabler;
+ 
+@@ -33,6 +34,7 @@
+ }
+ 
+ void AlcEnabler::init() {
++	ThinkBookTweeterRuntime::init();
+ 
+ 	lilu.onPatcherLoadForce(
+ 	[](void *user, KernelPatcher &patcher) {
+@@ -69,6 +71,7 @@
+ }
+ 
+ void AlcEnabler::deinit() {
++	ThinkBookTweeterRuntime::deinit();
+ 	controllers.deinit();
+ #ifdef HAVE_ANALOG_AUDIO
+ 	codecs.deinit();
+@@ -391,7 +394,10 @@
+ 		// 4 bit verb
+ 		DBGLOG("alc", "IOHDACodecDevice::executeVerb with parameters nid = 0x%02X, verb = 0x%X, param = 0x%04X", nid, verb, param);
+ 	}
+-	return FunctionCast(IOHDACodecDevice_executeVerb, callbackAlc->orgIOHDACodecDevice_executeVerb)(hdaCodecDevice, nid, verb, param, output, waitForSuccess);
++	auto result = FunctionCast(IOHDACodecDevice_executeVerb, callbackAlc->orgIOHDACodecDevice_executeVerb)(hdaCodecDevice, nid, verb, param, output, waitForSuccess);
++	if (result == kIOReturnSuccess)
++		ThinkBookTweeterRuntime::notify(hdaCodecDevice, nid, verb);
++	return result;
+ }
+ 
+ uint32_t AlcEnabler::getAudioLayout(IOService *hdaDriver) {

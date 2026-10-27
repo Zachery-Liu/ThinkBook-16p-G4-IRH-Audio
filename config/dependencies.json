@@ -1,0 +1,24 @@
+{
+  "AppleALC": {
+    "repository": "https://github.com/acidanthera/AppleALC",
+    "commit": "ff01db21749271916d44605503499ceaa61d94b2"
+  },
+  "MacKernelSDK": {
+    "repository": "https://github.com/acidanthera/MacKernelSDK",
+    "commit": "7af1933c27aefcbdf4809ee44478829aad30f9c1"
+  },
+  "Lilu_headers": {
+    "source": "https://github.com/acidanthera/Lilu",
+    "local_source_version_label": "1.7.2",
+    "vendored": "Headers plus Library/plugin_start.cpp; preserved exact local build inputs, not an inferred upstream commit"
+  },
+  "VoodooI2C": {
+    "repository": "https://github.com/hoaug-tran/VoodooI2C",
+    "addressed_ABI_reference_commit": "1a1ae9a26a74ec6b7e32a5d07f6a6ae9413bf298",
+    "required_controller_ids": [
+      "8086:51D9",
+      "8086:51E9"
+    ],
+    "warning": "Fork main addressed API; not interchangeable with stock or fork master."
+  }
+}
