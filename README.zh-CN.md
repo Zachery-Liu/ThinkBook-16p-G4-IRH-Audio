@@ -76,4 +76,4 @@ python3 tools/build_applealc.py Release
 
 ## 许可
 
-本项目原创的工具、测试和文档采用 [BSD-3-Clause](licenses/Project-BSD-3-Clause.txt)。CirrusAudioFixup 及其适配保留上游[非商业软件分发许可](LICENSE)，AppleALC、Lilu 和其他第三方组件沿用各自许可。具体范围见[许可说明](LICENSING.md)与[第三方说明](THIRD_PARTY_NOTICES.md)。
+本项目原创的工具、测试和文档采用 [BSD-3-Clause](licenses/Project-BSD-3-Clause.txt)。CirrusAudioFixup 及其适配保留上游[非商业软件分发许可](licenses/CirrusAudioFixup-NonCommercial.txt)，AppleALC、Lilu 和其他第三方组件沿用各自许可。具体范围见[许可说明](LICENSE.md)与[第三方说明](THIRD_PARTY_NOTICES.md)。

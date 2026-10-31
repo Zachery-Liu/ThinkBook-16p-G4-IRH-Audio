@@ -78,4 +78,4 @@ Built on [CirrusAudioFixup](https://github.com/hoaug-tran/CirrusAudioFixup), [Ap
 
 ## License
 
-Original project tooling, tests, and documentation use [BSD-3-Clause](licenses/Project-BSD-3-Clause.txt). CirrusAudioFixup and its adaptations retain the upstream [non-commercial software distribution license](LICENSE). AppleALC, Lilu, and other third-party components retain their respective licenses. See [License scope](LICENSING.md) and [Third-party notices](THIRD_PARTY_NOTICES.md).
+Original project tooling, tests, and documentation use [BSD-3-Clause](licenses/Project-BSD-3-Clause.txt). CirrusAudioFixup and its adaptations retain the upstream [non-commercial software distribution license](licenses/CirrusAudioFixup-NonCommercial.txt). AppleALC, Lilu, and other third-party components retain their respective licenses. See [License scope](LICENSE.md) and [Third-party notices](THIRD_PARTY_NOTICES.md).

@@ -1,16 +1,16 @@
-# License scope
+# License
 
 This repository contains components with separate licenses.
 
 | Files / component | License |
 | --- | --- |
 | Original content in root-level `tools/`, `tests/`, `docs/`, `config/`, and `reference/`, plus `README.md`, `README.zh-CN.md`, and `CONTRIBUTING.md` | [BSD-3-Clause — Zachery Liu](licenses/Project-BSD-3-Clause.txt) |
-| `src/CirrusAudioFixup/`, including adaptations of that driver | [CirrusAudioFixup License (Non-Commercial Software Distribution)](src/CirrusAudioFixup/LICENSE), also preserved in the root [LICENSE](LICENSE) |
+| `src/CirrusAudioFixup/`, including adaptations of that driver | [CirrusAudioFixup License (Non-Commercial Software Distribution)](src/CirrusAudioFixup/LICENSE), also available as [CirrusAudioFixup-NonCommercial.txt](licenses/CirrusAudioFixup-NonCommercial.txt) |
 | `applealc/` patches, follower implementation, and routing resource | BSD-3-Clause; retain the [AppleALC copyright and license](licenses/AppleALC-BSD-3-Clause.txt). Original additions by Zachery Liu also use [BSD-3-Clause](licenses/Project-BSD-3-Clause.txt) |
 | `vendor/Lilu/` | [Lilu BSD-3-Clause](licenses/Lilu-BSD-3-Clause.txt), with separate licenses for bundled Capstone, LLVM, and HDE material |
 | Other third-party material | Its original copyright notices and license terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) |
 
-The project BSD-3-Clause grant covers original contributions in the paths above. It does not replace licenses on upstream or copied material. The root `LICENSE` preserves the CirrusAudioFixup license and applies to that component and its derivative adaptations.
+The project BSD-3-Clause grant covers original contributions in the paths above. It does not replace licenses on upstream or copied material. The CirrusAudioFixup license applies to that component and its derivative adaptations; its full text is preserved in the component directory and in `licenses/CirrusAudioFixup-NonCommercial.txt`.
 
 BSD-3-Clause is an [OSI-approved open-source license](https://opensource.org/license/bsd-3-clause). CirrusAudioFixup's license restricts commercial software distribution, so the complete repository has mixed licensing rather than a single BSD-3-Clause or other OSI-approved license. Changing that component to a standard open-source license would require permission from its rights holders.
 

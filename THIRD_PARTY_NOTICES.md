@@ -1,8 +1,8 @@
 # 第三方与许可
 
-本仓库原创工具、测试和文档采用 BSD-3-Clause，署名 Zachery Liu；文件范围及组件对应关系见 [LICENSING.md](LICENSING.md)，许可全文见 [licenses/Project-BSD-3-Clause.txt](licenses/Project-BSD-3-Clause.txt)。
+本仓库原创工具、测试和文档采用 BSD-3-Clause，署名 Zachery Liu；文件范围及组件对应关系见 [LICENSE.md](LICENSE.md)，许可全文见 [licenses/Project-BSD-3-Clause.txt](licenses/Project-BSD-3-Clause.txt)。
 
-- `src/CirrusAudioFixup`：基于hoaug-tran/CirrusAudioFixup，保留Tran Kinh Hoang原作者署名及非商业软件分发许可。根LICENSE与该目录LICENSE保留原文。
+- `src/CirrusAudioFixup`：基于hoaug-tran/CirrusAudioFixup，保留Tran Kinh Hoang原作者署名及非商业软件分发许可。该目录的 `LICENSE` 与 `licenses/CirrusAudioFixup-NonCommercial.txt` 保留原文；根目录 `LICENSE.md` 汇总各组件授权范围。
 - `applealc`补丁／高音跟随及路由资源：基于acidanthera/AppleALC 1.9.9固定提交，按AppleALC的BSD-3-Clause保留来源及许可，见licenses/AppleALC-BSD-3-Clause.txt。
 - `vendor/Lilu`：本地构建使用的Lilu Headers与Library/plugin_start.cpp，保留各文件版权及BSD-3-Clause许可。完整Lilu运行时不在仓库内。PROVENANCE.json记录实际文件哈希；原归档的提交未恢复，不虚构提交。
 - Lilu所含Capstone与HDE头文件：保留原作者注释，并另附Capstone、LLVM及HDE原许可全文；这些组件不由Lilu的BSD-3-Clause或本仓库根许可替代。
